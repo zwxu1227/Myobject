@@ -1,5 +1,6 @@
 package zwx.dal.jpa;
 
+import org.springframework.data.repository.CrudRepository;
 import zwx.entity.database.Administrators;
 import zwx.entity.database.Setting;
 

@@ -13,4 +13,5 @@
     <delete id="delAdmin"  parameterType="java.lang.Long">
         DELETE  FROM Administrators WHERE id>#{id}
     </delete>
+
 </mapper>
