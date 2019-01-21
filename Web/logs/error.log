@@ -32,7 +32,7 @@ java.sql.SQLException: Field 'Code' doesn't have a default value
 	at com.sun.proxy.$Proxy70.insert(Unknown Source)
 	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)111111
 	at com.sun.proxy.$Proxy71.saveAdmin(Unknown Source)
 	at zwx.service.implement.AdministratorsService.saveAdmin(AdministratorsService.java:30)
 	at zwx.web.controller.AdministratorController.createAccount(AdministratorController.java:42)

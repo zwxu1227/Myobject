@@ -18,7 +18,7 @@ public class HelloController {
     @ResponseBody
     @RequestMapping("/hello")
     public String helloWorld() {
-        return "HelloWorld!";
+        return "HelloWorld!!!!!";
     }
 
     @ResponseBody
