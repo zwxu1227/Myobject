@@ -1,0 +1,54 @@
+</head>
+<body>
+<!-- header -->
+<div class="what">
+    <div class="header">
+        <div class="container">
+            <!-- top-nav -->
+            <div class="top-nav">
+                <span class="menu"> </span>
+                <ul>
+                    <li><a href="index.html">About us</a></li>
+                    <li><a href="what.html"> What we do</a></li>
+                    <li class="active"><a href="donate.html">  Donate </a></li>
+                    <li><a href="blog.html"> Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <div class="clearfix"> </div>
+                </ul>
+            </div>
+            <div style="float:right; margin-top: -20px; width: 80px; margin-right: -40px;">
+                <a style="cursor: pointer;" href="<c:url value="/loginOut"/>" ><spring:message code="home.loginOut.loginOut"/></a>
+            </div>
+            <!-- start search-->
+            <div class="search-box">
+                <div id="sb-search" class="sb-search">
+                    <form>
+                        <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                        <input class="sb-search-submit" type="submit" value="">
+                        <span class="sb-icon-search"> </span>
+                    </form>
+                </div>
+            </div>
+            <!-- search-scripts -->
+            <script src="js/classie.js"></script>
+            <script src="js/uisearch.js"></script>
+            <script>
+                new UISearch( document.getElementById( 'sb-search' ) );
+            </script>
+            <!-- //search-scripts -->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- script-for-nav -->
+    <script>
+        $(document).ready(function(){
+            $("span.menu").click(function(){
+                $(".top-nav ul").slideToggle(300);
+            });
+        });
+    </script>
+    <!-- script-for-nav -->
+    <!-- /top-nav -->
+    <div class="clearfix"> </div>
+</div>
+<!-- /header -->

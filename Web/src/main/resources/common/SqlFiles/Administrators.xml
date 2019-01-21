@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zwx.dal.mybatis.IAdministratorsDAL">
+    <select id="login" resultType="zwx.entity.database.Administrators" parameterType="java.lang.String">
+    select * from Administrators WHERE UserName=#{userName}
+    </select>
+    <select id="getAdmin" resultType="zwx.entity.database.Administrators" >
+       select * from Administrators
+    </select>
+    <insert id="saveAdmin" parameterType="zwx.entity.database.Administrators" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT INTO Administrators(userName,name,pwd,email,phone,code,state) VALUES(#{userName},#{name},#{pwd},#{email},#{phone},"123456",1)
+    </insert>
+    <delete id="delAdmin"  parameterType="java.lang.Long">
+        DELETE  FROM Administrators WHERE id>#{id}
+    </delete>
+</mapper>

@@ -1,0 +1,47 @@
+<div class="clear" style="margin-bottom: 10px;"></div>
+<!--/start-footer-->
+<div class="footer">
+    <div class="container">
+
+        <div class="footer-grids">
+            <div class="col-md-4 footer-grid-icons">
+                <h3>Follow Us:</h3>
+                <ul>
+                    <li><a class="twitter" href="#"><span> </span></a></li>
+                    <li><a class="fb" href="#"><span> </span></a></li>
+                    <li><a class="you" href="#"><span> </span></a></li>
+                    <li><a class="in" href="#"><span> </span></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div class="col-md-4 footer-grid-text">
+                <h3>Join our news letter</h3>
+                <p>Lorem Ipsum is simply dummy text of theprinting and typesetting industry.</p>
+                form method="post" action="contact-post.html">
+
+            </div>
+            <div class="col-md-4 copy-right">
+                <p>Copyright &copy; 2016.Company name All rights reserved.More Templates <a
+                        href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a
+                        href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+        <!--//End-footer-->
+<script type="text/javascript">
+$(document).ready(function () {
+    /*
+    var defaults = {
+    containerID: 'toTop', // fading element id
+    containerHoverID: 'toTopHover', // fading element hover id
+    scrollSpeed: 1200,
+    easingType: 'linear'
+    };
+    */
+
+    $().UItoTop({easingType: 'easeOutQuart'});
+
+});
+</script>
